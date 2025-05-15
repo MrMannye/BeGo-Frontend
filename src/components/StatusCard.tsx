@@ -39,7 +39,7 @@ function StatusCard({ order, type }: StatusCardProps) {
                                         </span>
                                     )}
                                 </span>
-                                <h1>{status.status}</h1>
+                                <h1 className={`${!status.active ? 'text-[#414243]' : ''}`}>{status.status}</h1>
                             </div>
                         ))}
                     </div>
