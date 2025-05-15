@@ -16,7 +16,7 @@ export default function DetailsCard({ order, selectedType, onSelectionChange }: 
 
     return (
         <div className='w-[427px] h-[304px] !ml-[39px] md:w-full md:!ml-[200px]'>
-            <div className='bg-[#3534344e] rounded-full h-full'>
+            <div className='bg-[#3534344e] rounded-l-[20px] h-full'>
                 <div className='gradient-border !p-5 !pl-9.5 h-full rounded-l-[20px] !border-b-[1px] !border-b-[#ffffff33]'>
                     <div className='font-semibold mb-4'>
                         <p className='text-[13px]'>Referencia {order.reference_number}</p>

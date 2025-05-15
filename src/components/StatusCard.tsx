@@ -22,7 +22,7 @@ function StatusCard({ order, type }: StatusCardProps) {
 
     return (
         <div className='w-[357px] h-[432px] !ml-[39px] !mt-[90px]'>
-            <div className='bg-[#3534344e] rounded-full h-full'>
+            <div className='bg-[#3534344e] rounded-2xl h-full'>
                 <div className="gradient-border flex flex-col justify-between !pt-15 relative h-full rounded-2xl !border-b-[1px] !border-b-[#ffffff33]">
                     <img src={imageUrl} className="absolute inset-0 left-[140px] -top-[40px] rounded-full w-20 h-20 border-8 border-[#1B2024]" alt="" />
                     <h1 className="text-[19.9px] self-center">{formatTime(order.start_date)}</h1>

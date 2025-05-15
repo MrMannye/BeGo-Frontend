@@ -22,7 +22,7 @@ const InfoPanel = ({ selectedType, order }: InfoPanelProps) => {
 
     return (
         <div className='w-[357px] h-[64px] !ml-[39px] !mt-[50px]'>
-            <div className='bg-[#3534344e] rounded-full h-full'>
+            <div className='bg-[#3534344e] rounded-[20px] h-full'>
                 <div className='gradient-border flex justify-between relative h-full rounded-[20px] !border-b-[1px] !border-b-[#ffffff33]'>
                     <div
                         className='flex !px-4 w-full justify-between items-center cursor-pointer'
