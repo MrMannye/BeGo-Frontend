@@ -1,0 +1,302 @@
+{
+    "status": 200,
+    "result": {
+        "_id": "624b5714296f8d9a820d01b3",
+        "stamp": true,
+        "reference_number": "AB100",
+        "status": 1,
+        "completion_percentage": 1,
+        "cargo": {
+            "53_48": "53",
+            "type": "hazardous",
+            "required_units": 1,
+            "description": "Prueba",
+            "hazardous_type": "class-4",
+            "weigth": [
+                1000
+            ],
+            "cargo_goods": "10222703",
+            "hazardous_material": "1324",
+            "packaging": "4A",
+            "unit_type": "28",
+            "weight_unit": "kg"
+        },
+        "user_id": "610aa90de6fcca003f74ad31",
+        "order_number": "ID7PJQBJ",
+        "route": {
+            "route": "TOL/NLDO",
+            "single": 39000,
+            "pickup": "TOL",
+            "dropoff": "NLDO",
+            "status": 1,
+            "end_date": 1640322000000,
+            "start_date": 1633924800000,
+            "stay": "6000"
+        },
+        "created": 1649104660376,
+        "distance_mts": 1098912,
+        "manager": {
+            "_id": "610aa90de6fcca003f74ad31",
+            "nickname": "Julio Tapia Ramos",
+            "raw_nickname": "julio tapia ramos",
+            "email": "juliocesar@begomx.com",
+            "telephone": "+5227653696",
+            "raw_telephone": "+52 27 65 36 96 ",
+            "country_code": "mx",
+            "language": "es",
+            "date_created": 1628088589399,
+            "full_documentation": true,
+            "verified": false,
+            "allow_login": true,
+            "availability": 2,
+            "mood": 0,
+            "connected": true,
+            "active_sessions": 29,
+            "location": {
+                "lat": 19.43371221282992,
+                "lng": -99.21200092973984,
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -99.21200092973984,
+                        19.43371221282992
+                    ]
+                }
+            },
+            "role": 2,
+            "test": true,
+            "tags": [
+                "618be73032de20004064c1aa"
+            ],
+            "cer": {
+                "ETag": "\"b1fdfbb05965c39f07efc66948f0a491\"",
+                "Key": "production/csd/private/IIA040805DZ4/IIA040805DZ4.cer",
+                "Bucket": "begoclients",
+                "Location": "https://begoclients.s3.amazonaws.com/production/csd/private/IIA040805DZ4/IIA040805DZ4.cer"
+            },
+            "key": {
+                "ETag": "\"02e953953261e85124954ea6b836b88d\"",
+                "Key": "production/csd/private/IIA040805DZ4/IIA040805DZ4.key",
+                "Bucket": "begoclients",
+                "Location": "https://begoclients.s3.amazonaws.com/production/csd/private/IIA040805DZ4/IIA040805DZ4.key"
+            },
+            "key_pswd": "U2FsdGVkX1+611lBUTxloxU07jomoWhoXES1D7D/RKI=",
+            "version": "v3.1.2",
+            "place_id": "ChIJx70aByIC0oURFx4hG2VvyAM"
+        },
+        "bego_order": false,
+        "invoice": {
+            "series_id": "624b5714296f8d9a820d01b2",
+            "fullname": "CSD ILUNIMADORA DE ALMACENES SA DE CV",
+            "phonenumber": null,
+            "country_code": null,
+            "email": null,
+            "address": "",
+            "company": null,
+            "rfc": "SAGF870828S13",
+            "cfdi": "G03",
+            "receiver": {
+                "address": {
+                    "place_id": "EkhDYWx6YWRhIGRlIFRsYWxwYW4gMTIzLCBQb3J0YWxlcyBOb3J0ZSwgQ2l1ZGFkIGRlIE3DqXhpY28sIENETVgsIE3DqXhpY28iUBJOCjQKMgktvt1rTP7RhRFdYMqnbkgYLRoeCxDuwe6hARoUChIJrQa5S7T_0YURHQy8by7B2RsMEHsqFAoSCUdlEGfW_9GFEefDzH8mgNqM"
+                },
+                "branch": null,
+                "cfdi": "I02",
+                "rfc": "SAGF870828HY1",
+                "company": "JULS SA",
+                "place_id": "EkhDYWx6YWRhIGRlIFRsYWxwYW4gMTIzLCBQb3J0YWxlcyBOb3J0ZSwgQ2l1ZGFkIGRlIE3DqXhpY28sIENETVgsIE3DqXhpY28iUBJOCjQKMgktvt1rTP7RhRFdYMqnbkgYLRoeCxDuwe6hARoUChIJrQa5S7T_0YURHQy8by7B2RsMEHsqFAoSCUdlEGfW_9GFEefDzH8mgNqM"
+            }
+        },
+        "pricing": {
+            "deferred_payment": false,
+            "subtotal": 1000,
+            "insurance": 0,
+            "customs": 0,
+            "cruce": 0,
+            "taxes": 160,
+            "extras": 0,
+            "driver_earnings": 0,
+            "total": 1160,
+            "pre_taxes": 1000,
+            "single": 1000
+        },
+        "driver": {
+            "_id": "624b40f5296f8d9a820cfc46",
+            "nickname": "Federico driver normal",
+            "raw_nickname": "federico driver normal",
+            "email": "federico@bego.ai",
+            "telephone": "+15431691673",
+            "raw_telephone": "+1 543 169 1673",
+            "country_code": "us",
+            "language": "es",
+            "date_created": 1649098997730,
+            "full_documentation": false,
+            "verified": false,
+            "allow_login": true,
+            "availability": 2,
+            "mood": 0,
+            "connected": true,
+            "active_sessions": 22,
+            "location": {
+                "lat": 19.4336951,
+                "lng": -99.2119897,
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -99.2119897,
+                        19.4336951
+                    ]
+                }
+            },
+            "role": 1,
+            "test": true,
+            "version": "v3.1.2",
+            "thumbnail": ""
+        },
+        "trailer": {
+            "_id": "61842a8ba036136caf1903a7",
+            "attributes": {
+                "plates": "vbbb",
+                "trailer_number": "vjbb",
+                "type": "53"
+            },
+            "active": false,
+            "thumbnail": ""
+        },
+        "truck": {
+            "_id": "610aad95e6fcca003f74b085",
+            "attributes": {
+                "plates": "TYI578",
+                "year": "2022",
+                "brand": "Renault",
+                "color": "red",
+                "caat": "dkdkd",
+                "colorName": "red",
+                "sct_permission": "TPAF20",
+                "sct_permission_text": "Autotransporte Federal de Carga Especializada de fondos y valores.",
+                "sct_number": "334234232323",
+                "truck_settings": "GPLUTD",
+                "truck_settings_text": "Grúa de Pluma Tipo D",
+                "insurer": "GNP",
+                "policy_number": "726172"
+            },
+            "active": true,
+            "thumbnail": "https://begoclients.s3.amazonaws.com/development/profiles/610aa90de6fcca003f74ad31/trucks/610aad95e6fcca003f74b085/thumbnails/2"
+        },
+        "version": "v1.0.0",
+        "add_ons": {
+            "cargo_value": 0,
+            "insurance": false,
+            "cruce": false,
+            "customs_agent": false,
+            "min_insurance": false,
+            "insurance_percentage": 0
+        },
+        "ETA": 0,
+        "map": {
+            "original_url": "",
+            "thumbnail_url": ""
+        },
+        "stampedPercentage": 95,
+        "start_date": 1649193900000,
+        "end_date": 1649708880000,
+        "status_list": {
+            "pickup": [
+                {
+                    "active": true,
+                    "status": "Orden creada"
+                },
+                {
+                    "active": true,
+                    "status": "Orden asignada"
+                },
+                {
+                    "active": false,
+                    "status": "Recolección iniciada"
+                },
+                {
+                    "active": false,
+                    "status": "Recolección completada"
+                }
+            ],
+            "dropoff": [
+                {
+                    "active": false,
+                    "status": "Entrega iniciada"
+                },
+                {
+                    "active": false,
+                    "status": "Entrega completada"
+                },
+                {
+                    "active": false,
+                    "status": "Orden completada"
+                }
+            ]
+        },
+        "destinations": [
+            {
+                "lat": 19.5475331,
+                "lng": -99.2110099,
+                "address": "Perif. Blvd. Manuel Ávila Camacho 3130, Valle Dorado, 54020 Tlalnepantla de Baz, Méx., Mexico",
+                "startDate": 1649193900000,
+                "zip_code": 54020,
+                "place_id_pickup": "ChIJsUDXn2od0oURpAnsjV2k44A",
+                "contact_info": {
+                    "name": "Federico Ramos",
+                    "telephone": "+52 57 84 64 25 ",
+                    "email": "prueba@prueba.com",
+                    "country_code": "mx",
+                    "rfc": "SAGF870828S13"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -99.2110099,
+                        19.5475331
+                    ]
+                },
+                "raw_address": "perif. blvd. manuel avila camacho 3130, valle dorado, 54020 tlalnepantla de baz, mex., mexico",
+                "evidence": {
+                    "pictures": [],
+                    "extra_notes": "",
+                    "signature": {}
+                },
+                "status": 0,
+                "status_string": "En espera",
+                "status_class": "grey-dot-bg"
+            },
+            {
+                "startDate": 1649708460000,
+                "endDate": 1649708880000,
+                "lat": 27.4955923,
+                "lng": -99.5077369,
+                "zip_code": 88000,
+                "place_id_dropoff": "ChIJa0_kQi4iYYYR5c_zAc3Rll8",
+                "address": "Mariano Matamoros, Sector Centro, 88000 Nuevo Laredo, Tamps., Mexico",
+                "contact_info": {
+                    "name": "Ignacio Canalla",
+                    "telephone": "+52 52 56 64 96 56",
+                    "email": "ignacio@bego.ai",
+                    "country_code": "mx",
+                    "rfc": "SAGF870828S13"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -99.5077369,
+                        27.4955923
+                    ]
+                },
+                "raw_address": "mariano matamoros, sector centro, 88000 nuevo laredo, tamps., mexico",
+                "evidence": {
+                    "pictures": [],
+                    "extra_notes": "Notas adicionales",
+                    "signature": {}
+                },
+                "status": 0,
+                "status_class": "grey-dot-bg",
+                "status_string": "En espera"
+            }
+        ]
+    }
+}
