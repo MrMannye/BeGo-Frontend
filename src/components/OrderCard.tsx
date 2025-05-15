@@ -20,7 +20,7 @@ const OrderCard = ({ order }: { order: Order }) => {
                 <span className='text-[17.3px] font-semibold'>#{order.order_number}</span>
             </section>
 
-            <div className='bg-[#3534344e] rounded-full h-full'>
+            <div className='bg-[#3534344e] rounded-[20px] h-full'>
                 <div className="mb-4 gradient-border !rounded-[20px] h-full flex flex-col justify-between">
                     <div className='flex items-center justify-between border-b-[0.6px] border-[#606364] !mb-5'>
                         <div className='flex items-center gap-2 !p-3.5'>

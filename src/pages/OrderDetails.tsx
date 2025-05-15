@@ -22,7 +22,7 @@ function OrderDetails() {
                 selectedType={selectedType}
                 onSelectionChange={handleSelectionChange}
             />
-            <section className='flex flex-col md:flex-row md:items-center md:justify-center  gap-4'>
+            <section className='flex flex-col md:flex-row md:items-center md:justify-center gap-4 !mb-52'>
                 <StatusCard order={orders} type={selectedType.toLowerCase() as 'pickup' | 'dropoff'} />
                 <InfoPanel selectedType={selectedType} order={orders} />
             </section>

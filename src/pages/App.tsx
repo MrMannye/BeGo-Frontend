@@ -19,7 +19,7 @@ function App() {
     <main className="flex flex-col">
       <Navigation />
       <Search searchTerm={searchTerm} onSearch={setSearchTerm} />
-      <section className="flex flex-col items-center justify-center gap-2 md:flex-row">
+      <section className="flex flex-wrap flex-col items-center justify-center gap-2 md:flex-row">
         {filterOrders.map((order) => {
           return (
             <OrderCard key={order._id} order={order} />
