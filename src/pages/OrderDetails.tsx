@@ -16,13 +16,13 @@ function OrderDetails() {
     };
 
     return (
-        <div className=' '>
+        <div className=''>
             <DetailsCard
                 order={orders}
                 selectedType={selectedType}
                 onSelectionChange={handleSelectionChange}
             />
-            <section className='flex flex-col md:flex-row md:items-center gap-4'>
+            <section className='flex flex-col md:flex-row md:items-center md:justify-center  gap-4'>
                 <StatusCard order={orders} type={selectedType.toLowerCase() as 'pickup' | 'dropoff'} />
                 <InfoPanel selectedType={selectedType} order={orders} />
             </section>
